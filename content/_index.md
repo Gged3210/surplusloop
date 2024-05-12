@@ -10,8 +10,8 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: SurplusLoop
+      text: 🧱 We Made Surplus Great Again 🧱
       primary_action:
         text: Get Started
         url: https://hugoblox.com/templates/
@@ -31,10 +31,10 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "navy"
+        color: "green"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: trees.jpg
           filters:
             brightness: 0.5
   - block: stats
@@ -42,15 +42,15 @@ sections:
       items:
         - statistic: "1M+"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Assets
+            repurposed
+        - statistic: "100k+"
           description: |
-            GitHub stars  
-            since 2016
+            Total sales  
+            since 2024
         - statistic: "3k+"
           description: |
-            Discord community  
+            Trusted community  
             for support
     design:
       # Section background color (CSS class)
@@ -58,35 +58,35 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  - block: features
-    id: features
-    content:
-      title: Features
-      text: Build your site with blocks 🧱
-      items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+  # - block: features
+  #   id: features
+  #   content:
+  #     title: Features
+  #     text: Build your site with blocks 🧱
+  #     items:
+  #       - name: Optimized SEO
+  #         icon: magnifying-glass
+  #         description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
+  #       - name: Fast
+  #         icon: bolt
+  #         description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
+  #       - name: Easy
+  #         icon: sparkles
+  #         description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
+  #       - name: No-Code
+  #         icon: code-bracket
+  #         description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+  #       - name: Highly Rated
+  #         icon: star
+  #         description: Rated 5-stars by the community.
+  #       - name: Swappable Blocks
+  #         icon: rectangle-group
+  #         description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
     id: solutions
     content:
       items:
-        - title: Build your future-proof website
+        - title: Build your future-of sustainability with us
           text: As easy as 1, 2, 3!
           feature_icon: check
           features:
@@ -99,7 +99,7 @@ sections:
             text: Get Started
             url: https://hugoblox.com/templates/
         - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
+          text: We have a huge community of buyers and sellers
           feature_icon: bolt
           features:
             - "Dedicated support channel"
@@ -122,21 +122,21 @@ sections:
           role: "Marketing Executive at X"
           # Upload image to `assets/media/` and reference the filename here
           image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+          text: "Awesome work guys, we have been working with SurplusLoop for the past 1 year"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+  # - block: cta-card
+  #   content:
+  #     title: Build your future-proof website
+  #     text: As easy as 1, 2, 3!
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---
