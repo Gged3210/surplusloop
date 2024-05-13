@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: SurplusLoop | WE made Earth Great Again # Website name
+title: SurplusLoop | Transforming Surplus Into Opportunities # Website name
 baseURL: 'https://surplusloop.com/' # Website URL
 
 ############################

@@ -6,16 +6,16 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  color: green
 
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Product
     local_business_type: ''
     org_name: ''
     description: '/We help you to reduce carbon footprint one sen at a time'
-    twitter: 'GetResearchDev'
+    # twitter: 'GetResearchDev'
   analytics:
     google_analytics: 'G-ZQ61GKZLDR'
     baidu_tongji: ''
@@ -36,18 +36,18 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
-    show_search: true
-    show_theme_chooser: true
+      # filename: "logo.svg"
+    # button:
+    #   enable: true
+    #   text: "Get Started"
+    #   url: "https://hugoblox.com/templates/"
+    show_search: false
+    show_theme_chooser: false
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} SurplusLoop'
 
 # Localization
 locale:
