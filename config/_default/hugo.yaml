@@ -18,10 +18,10 @@ cascade:
     pager: true
     editable: true
     hide_date: false
-    show_date_updated: true
+    show_date_updated: false
     reading_time: false
-    commentable: true
-    show_related: true
+    commentable: false
+    show_related: false
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
