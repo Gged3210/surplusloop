@@ -87,30 +87,11 @@ sections:
     id: solutions
     content:
       items:
-        - title: Together We Make Sustainable Economy
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "We renew your old assets"
-            - "Maximum return via our marketplace"
-            - "Almost zero effort from your end"
-          # Upload image to `assets/media/` and reference the filename here
-          image: sustainable.jpg
-          # button:
-          #   text: Get Started
-          #   url: https://hugoblox.com/templates/
-        # - title: Large Community
-        #   text: We have a huge community of buyers and sellers
-        #   feature_icon: bolt
-        #   features:
-        #     - "Dedicated support channel"
-        #     - "3,000+ users on Discord"
-        #     - "Share your site and get feedback"
-        #   # Upload image to `assets/media/` and reference the filename here
-        #   image: coffee.jpg
-        #   button:
-        #     text: Join Discord
-        #     url: https://discord.gg/z8wNYzb
+        form:
+          provider: formspree
+          formspree:
+            id: xgegqlpa
+
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
