@@ -111,6 +111,11 @@ sections:
             - "Our auction solutions allows the best market price to be achieved"
             - "Our direct sales solutions allows quick algorithmic matching between buyer and seller"
           image: solution.jpg
+  - block: markdown
+    content:
+      title: My title
+      subtitle: My subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
