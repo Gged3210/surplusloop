@@ -114,7 +114,8 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: markdown
+  - block: contact
+    id: contact
     content:
       title: Contact
       subtitle: ''
