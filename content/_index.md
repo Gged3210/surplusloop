@@ -103,6 +103,14 @@ sections:
             - "For buyers, we give you access to assets in the secondary market at lower prices"
             - "We’re a one stop solution for seamless asset liquidation"
           image: sustainable.jpg
+        - title: Our Sales Solution
+          text: Flexible and seamless to get you the best price
+          feature_icon: bolt
+          features:
+            - "Our marketplace fuels your business by aggregating supply and demand"
+            - "Our auction solutions allows the best market price to be achieved"
+            - "Our direct sales solutions allows quick algorithmic matching between buyer and seller"
+          image: sustainable.jpg
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
