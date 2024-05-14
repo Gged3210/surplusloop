@@ -1,17 +1,17 @@
 ---
-title: 'Home'
+title: ''
 date: 2023-10-24
 type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "0rem"
 
 sections:
   - block: hero
     content:
       title: SurplusLoop
-      text: Transforming Surplus Into Opportunities
+      text: Transforming Surplus Into Cashflow
       # primary_action:
       #   text: Get Started
       #   url: https://hugoblox.com/templates/
@@ -89,7 +89,7 @@ sections:
       items:
         - title: About SurplusLoop
           text: Enabling circularity for surplus assets'
-          feature_icon: check
+          feature_icon: bolt
           features:
             - "We’re passionate about creating a win-win for businesses and the planet"
             - "Our expertise and marketplace helps transform surplus assets into value-adds"
@@ -114,33 +114,6 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle: ''
-      text: ''
-      # Contact details - edit or remove options as needed
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display them just as text?
-      autolink: true
-      # Choose an email form provider (netlify/formspree)
-      form:
-        provider: formspree
-        formspree:
-          # If using Formspree, enter your Formspree form ID
-          id: 'xgegqlpa'
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
   - block: testimonials
     content:
       title: ""
@@ -151,13 +124,16 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: "abdou.jpg"
           text: "Awesome work guys, we have been working with SurplusLoop for the past 1 year in repurposing our assets for other organizations"
+        - name: "Michel Mustapha Ragio"
+          role: "CFO of Affilit"
+          # Upload image to `assets/media/` and reference the filename here
+          image: "michel.jpg"
+          text: "The B2B marketplace would be great for new startup founders looking for office equipments like me!"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+        padding: [0, 0, 0, 0]
   
-
-        
   # - block: cta-card
   #   content:
   #     title: Build your future-proof website
