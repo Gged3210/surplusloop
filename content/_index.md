@@ -111,14 +111,35 @@ sections:
             - "Our auction solutions allows the best market price to be achieved"
             - "Our direct sales solutions allows quick algorithmic matching between buyer and seller"
           image: solution.jpg
-  - block: markdown
-    content:
-      title: My title
-      subtitle: My subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+  - block: markdown
+    content:
+      title: Contact
+      subtitle: ''
+      text: ''
+      # Contact details - edit or remove options as needed
+      contact_links:
+        - icon: twitter
+          icon_pack: fab
+          name: DM Me
+          link: 'https://twitter.com/Twitter'
+        - icon: video
+          icon_pack: fas
+          name: Zoom Me
+          link: 'https://zoom.com'
+      # Automatically link email and phone or display them just as text?
+      autolink: true
+      # Choose an email form provider (netlify/formspree)
+      form:
+        provider: formspree
+        formspree:
+          # If using Formspree, enter your Formspree form ID
+          id: 'xgegqlpa'
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: false
   - block: testimonials
     content:
       title: ""
