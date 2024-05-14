@@ -97,7 +97,7 @@ sections:
           image: sustainable.jpg
         - title: We have you covered
           text: We’re building a huge community of buyers and sellers
-          feature_icon: bolt
+          feature_icon: check
           features:
             - "For sellers, we help you liquidate and maximize your returns from surplus assets”
             - "For buyers, we give you access to assets in the secondary market at lower prices"
@@ -105,7 +105,7 @@ sections:
           image: sustainable.jpg
         - title: Our Sales Solution
           text: Flexible and seamless to get you the best price
-          feature_icon: bolt
+          feature_icon: check
           features:
             - "Our marketplace fuels your business by aggregating supply and demand"
             - "Our auction solutions allows the best market price to be achieved"
