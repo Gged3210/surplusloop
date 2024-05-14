@@ -97,9 +97,9 @@ sections:
           image: sustainable.jpg
         - title: We have you covered
           text: We’re building a huge community of buyers and sellers
-          feature_icon: bolt
+          feature_icon: check
           features:
-            - "For sellers, we help you liquidate and maximize your returns from surplus assets”
+            - "For sellers, we help you liquidate and maximize your returns from surplus assets"
             - "For buyers, we give you access to assets in the secondary market at lower prices"
             - "We’re a one stop solution for seamless asset liquidation"
           image: sustainable.jpg
