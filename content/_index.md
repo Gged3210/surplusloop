@@ -95,6 +95,14 @@ sections:
             - "Maximum return via our marketplace"
             - "Almost zero effort from your end"
           image: sustainable.jpg
+        - title: About SurplusLoop
+          # text: Enabling circularity for surplus assets'
+          feature_icon: check
+          features:
+            - "We’re passionate about creating a win-win for businesses and the planet"
+            - "Our expertise and marketplace helps transform surplus assets into value-adds"
+            - "We operate as partners, to deliver what you need with better results"
+          image: sustainable.jpg
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
