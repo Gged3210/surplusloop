@@ -95,21 +95,13 @@ sections:
             - "Our expertise and marketplace helps transform surplus assets into value-adds"
             - "We operate as partners, to deliver what you need with better results"
           image: sustainable.jpg
-        - title: We have you covered
-          text: We’re building a huge community of buyers and sellers
+        - title: About SurplusLoop
+          text: Enabling circularity for surplus assets'
           feature_icon: check
           features:
-            - "For sellers, we help you liquidate and maximize your returns from surplus assets”
-            - "For buyers, we give you access to assets in the secondary market at lower prices"
-            - "We’re a one stop solution for seamless asset liquidation"
-          image: sustainable.jpg
-        - title: Our Sales Solution
-          text: Flexible and seamless to get you the best price
-          feature_icon: check
-          features:
-            - "Our marketplace fuels your business by aggregating supply and demand"
-            - "Our auction solutions allows the best market price to be achieved"
-            - "Our direct sales solutions allows quick algorithmic matching between buyer and seller"
+            - "We’re passionate about creating a win-win for businesses and the planet"
+            - "Our expertise and marketplace helps transform surplus assets into value-adds"
+            - "We operate as partners, to deliver what you need with better results"
           image: sustainable.jpg
     design:
       # Section background color (CSS class)
