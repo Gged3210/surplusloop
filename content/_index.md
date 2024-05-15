@@ -43,7 +43,7 @@ sections:
         - statistic: "20%"
           description: |
             Surplus
-            in organization
+            in organizations
         - statistic: "10%"
           description: |
             Spent on 
