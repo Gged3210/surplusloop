@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: SurplusLoop
-      text: Transforming Surplus Into Cashflow
+      text: Turning Surplus Into Cashflow
       # primary_action:
       #   text: Get Started
       #   url: https://hugoblox.com/templates/
@@ -120,15 +120,15 @@ sections:
       text: ""
       items:
         - name: "Abdou"
-          role: "Procurement Manager of Newell Road"
+          role: "CEO of YourDevops.ai"
           # Upload image to `assets/media/` and reference the filename here
           image: "abdou.jpg"
-          text: "Awesome work guys, we have been working with SurplusLoop for the past 1 year in repurposing our assets for other organizations"
+          text: "Awesome work SurplusLoop, they've helped us gain 30% value across our asset liquidations"
         - name: "Michel Mustapha Ragio"
-          role: "CFO of Affilit"
+          role: "CFO of Newell Road"
           # Upload image to `assets/media/` and reference the filename here
           image: "michel.jpg"
-          text: "The B2B marketplace would be great for new startup founders looking for office equipments like me!"
+          text: "SurplusLoop is a great marketplace. I found great prices for used office equipment!"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
