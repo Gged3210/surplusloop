@@ -42,15 +42,15 @@ sections:
       items:
         - statistic: "20%"
           description: |
-            Average
-            organization surplus
+            Surplus
+            in organization
         - statistic: "10%"
           description: |
-            Spent on
+            Spent on 
             asset storage
         - statistic: "15%"
           description: |
-            Global waste
+            Global waste 
             from surplus assets
     design:
       # Section background color (CSS class)
