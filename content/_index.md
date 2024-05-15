@@ -40,18 +40,18 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "20%"
           description: |
-            Assets
-            repurposed
-        - statistic: "100k+"
+            Average
+            organization surplus
+        - statistic: "10%"
           description: |
-            Total sales  
-            since 2024
-        - statistic: "3k+"
+            Spent on
+            asset storage
+        - statistic: "15%"
           description: |
-            Trusted community  
-            for support
+            Global waste
+            from surplus assets
     design:
       # Section background color (CSS class)
       # css_class: "bg-gray-100 dark:bg-gray-900"
