@@ -120,7 +120,7 @@ sections:
       text: ""
       items:
         - name: "Abdou"
-          role: "CEO of YourDevops.ai"
+          role: "CEO of ScaleIT"
           # Upload image to `assets/media/` and reference the filename here
           image: "abdou.jpg"
           text: "Awesome work SurplusLoop, they've helped us gain 30% value across our asset liquidations"
