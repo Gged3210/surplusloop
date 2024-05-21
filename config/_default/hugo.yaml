@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: SurplusLoop | Transforming Surplus Into Cashflow # Website name
+title: SurplusLoop | Asset Liquidation Made Easy # Website name 
 baseURL: 'https://surplusloop.com/' # Website URL
 
 ############################

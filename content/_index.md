@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: SurplusLoop
-      text: Turning Surplus Into Cashflow
+      text: Asset Liquidation Made Easy
       # primary_action:
       #   text: Get Started
       #   url: https://hugoblox.com/templates/
