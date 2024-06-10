@@ -40,18 +40,17 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "20%"
+        - statistic: "10+"
           description: |
             Surplus
-            in organizations
-        - statistic: "10%"
+            Categories
+        - statistic: "1000+"
           description: |
-            Spent on 
-            asset storage
-        - statistic: "15%"
+            Surplus
+            Items
+        - statistic: "100+"
           description: |
-            Global waste 
-            from surplus assets
+            Sellers/Buyers
     design:
       # Section background color (CSS class)
       # css_class: "bg-gray-100 dark:bg-gray-900"
@@ -88,51 +87,60 @@ sections:
     content:
       items:
         - title: About SurplusLoop
-          text: Enabling circularity for surplus assets'
+          # text: Enabling circularity for surplus assets'
           feature_icon: bolt
           features:
-            - "We’re passionate about creating a win-win for businesses and the planet"
-            - "Our expertise and marketplace helps transform surplus assets into value-adds"
-            - "We operate as partners, to deliver what you need with better results"
-          image: about.jpg
-        - title: We have you covered
-          text: We’re building a huge community of buyers and sellers
+            - "A B2B online marketplace for business surplus since April 2024"
+            - "SurplusLoop provides a simple, fast and secure way to sell surplus online"
+            - "Surplus ranging from overstock to idle assets to scrap to disposal items"
+          image: about_us.jpg
+        - title: Problems We Are Solving
+          # text: We’re building a huge community of buyers and sellers
           feature_icon: check
           features:
-            - "For sellers, we help you liquidate and maximize your returns from surplus assets"
-            - "For buyers, we give you access to assets in the secondary market at lower prices"
-            - "We’re a one stop solution for seamless asset liquidation"
-          image: benefit.jpg
-        - title: Our Sales Solution
-          text: Flexible and seamless to get you the best price
+            - "The secondary market today is fragmented and inefficient for disposal or procurement."
+            - "Brokers make profits from “Buy Low Sell High” and result in a low return on surplus sold."
+            - "The surplus in landfill causes environmental degradation and resource waste."
+          image: problem.jpg
+        - title: Our Solution
+          # text: Flexible and seamless to get you the best price
           feature_icon: bolt
           features:
-            - "Our marketplace fuels your business by aggregating supply and demand"
-            - "Our auction solutions allows the best market price to be achieved"
-            - "Our direct sales solutions allows quick algorithmic matching between buyer and seller"
-          image: solution.jpg
+            - "Our AI-powered marketplace connects sellers to a large network of buyers from different industries and regions to sell their surplus assets online and get the best return."
+            - "Our database algorithm matches buyers and sellers for quick sale."
+            - "Our auction model ensures you get the best price on the market."
+            - "Our escrow services give you more protection and buy with confidence."
+          image: our_solution.jpg
+        - title: What Makes SurplusLoop Unique?  
+          # text: Flexible and seamless to get you the best price
+          feature_icon: bolt
+          features:
+            - "Our marketplace aggregates the largest surplus supply and demand into one place."
+            - "We are a one-stop shop for all surplus categories for disposal or procurement."
+            - "Access surplus that is hard to find in the market."
+          image: benefit.jpg
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Abdou"
-          role: "CEO of ScaleIT"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "abdou.jpg"
-          text: "Awesome work SurplusLoop, they've helped us gain 30% value across our asset liquidations"
-        - name: "Michel Mustapha Ragio"
-          role: "CFO of Newell Road"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "michel.jpg"
-          text: "SurplusLoop is a great marketplace. I found great prices for used office equipment!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: [0, 0, 0, 0]
+  # - block: testimonials
+  #   content:
+  #     title: ""
+  #     text: ""
+  #     items:
+  #       - name: "Abdou"
+  #         role: "CEO of ScaleIT"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "abdou.jpg"
+  #         text: "Awesome work SurplusLoop, they've helped us gain 30% value across our asset liquidations"
+  #       - name: "Michel Mustapha Ragio"
+  #         role: "CFO of Newell Road"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "michel.jpg"
+  #         text: "SurplusLoop is a great marketplace. I found great prices for used office equipment!"
+  #   design:
+  #     spacing:
+  #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
+  #       padding: [0, 0, 0, 0]
   
   # - block: cta-card
   #   content:

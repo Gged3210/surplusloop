@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 21, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: June 10, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="light">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="Create a personal knowledge base and share your knowledge with your peers." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/blog/second-brain/" />
+  <link rel="alternate" hreflang="en-us" href="https://surplusloop.com/blog/second-brain/" />
 
   
   
@@ -129,6 +129,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQ61GKZLDR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-ZQ61GKZLDR', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -160,7 +199,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu17d707ef6eb4c85aa4d5fe1a5bdafdf3_7981_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu17d707ef6eb4c85aa4d5fe1a5bdafdf3_7981_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="http://localhost:1313/blog/second-brain/" />
+  <link rel="canonical" href="https://surplusloop.com/blog/second-brain/" />
 
   
   
@@ -181,11 +220,11 @@
   
   <meta property="twitter:card" content="summary_large_image" />
   
-  <meta property="og:site_name" content="SurplusLoop | Transforming Surplus Into Cashflow" />
-  <meta property="og:url" content="http://localhost:1313/blog/second-brain/" />
-  <meta property="og:title" content="🧠 Sharpen your thinking with a second brain | SurplusLoop | Transforming Surplus Into Cashflow" />
-  <meta property="og:description" content="Create a personal knowledge base and share your knowledge with your peers." /><meta property="og:image" content="http://localhost:1313/blog/second-brain/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/blog/second-brain/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:site_name" content="SurplusLoop | Asset Liquidation Made Easy" />
+  <meta property="og:url" content="https://surplusloop.com/blog/second-brain/" />
+  <meta property="og:title" content="🧠 Sharpen your thinking with a second brain | SurplusLoop | Asset Liquidation Made Easy" />
+  <meta property="og:description" content="Create a personal knowledge base and share your knowledge with your peers." /><meta property="og:image" content="https://surplusloop.com/blog/second-brain/featured.jpg" />
+    <meta property="twitter:image" content="https://surplusloop.com/blog/second-brain/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -217,12 +256,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/blog/second-brain/"
+    "@id": "https://surplusloop.com/blog/second-brain/"
   },
   "headline": "🧠 Sharpen your thinking with a second brain",
   
   "image": [
-    "http://localhost:1313/blog/second-brain/featured.jpg"
+    "https://surplusloop.com/blog/second-brain/featured.jpg"
   ],
   
   "datePublished": "2023-10-26T00:00:00Z",
@@ -235,10 +274,10 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "SurplusLoop | Transforming Surplus Into Cashflow",
+    "name": "SurplusLoop | Asset Liquidation Made Easy",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/media/logo.svg"
+      "url": "https://surplusloop.com/media/logo.svg"
     }
   },
   "description": "Create a personal knowledge base and share your knowledge with your peers."
@@ -250,7 +289,7 @@
   
 
 
-  <title>🧠 Sharpen your thinking with a second brain | SurplusLoop | Transforming Surplus Into Cashflow</title>
+  <title>🧠 Sharpen your thinking with a second brain | SurplusLoop | Asset Liquidation Made Easy</title>
 
   
   
@@ -318,8 +357,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.e5fa931947cac2d947732ea37a770aae2b5bd4a50b6048060cd129b46159a06d.js"
+    integrity="sha256-5fqTGUfKwtlHcy6jencKritb1KULYEgGDNEptGFZoG0="
   ></script>
 
   
@@ -350,7 +389,7 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/" title="SurplusLoop | Transforming Surplus Into Cashflow">
+      <a class="navbar-brand" href="/" title="SurplusLoop | Asset Liquidation Made Easy">
         
       </a>
     </div>
@@ -418,6 +457,20 @@
           
           href="/contact"
         >Contact</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/marketplace"
+        >Marketplace</a
         >
       </li>
       
@@ -839,7 +892,7 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
+      <a href="https://surplusloop.com/" class="no-underline">
       吳健雄
       </a>
     </div>
@@ -1083,7 +1136,7 @@
       
       
       
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      P
     
   </p>
 

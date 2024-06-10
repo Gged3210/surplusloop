@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 21, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: June 10, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="light">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="Maximize Value with Our Surplus Marketplace and Auction Solutions" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
+  <link rel="alternate" hreflang="en-us" href="https://surplusloop.com/" />
 
   
   
@@ -129,6 +129,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQ61GKZLDR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-ZQ61GKZLDR', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -155,14 +194,14 @@
 
   
   
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SurplusLoop | Transforming Surplus Into Cashflow" />
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SurplusLoop | Asset Liquidation Made Easy" />
   
 
   
   <link rel="icon" type="image/png" href="/media/icon_hu17d707ef6eb4c85aa4d5fe1a5bdafdf3_7981_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu17d707ef6eb4c85aa4d5fe1a5bdafdf3_7981_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="http://localhost:1313/" />
+  <link rel="canonical" href="https://surplusloop.com/" />
 
   
   
@@ -184,11 +223,11 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="SurplusLoop | Transforming Surplus Into Cashflow" />
-  <meta property="og:url" content="http://localhost:1313/" />
-  <meta property="og:title" content="SurplusLoop | Transforming Surplus Into Cashflow" />
-  <meta property="og:description" content="Maximize Value with Our Surplus Marketplace and Auction Solutions" /><meta property="og:image" content="http://localhost:1313/media/logo.svg" />
-    <meta property="twitter:image" content="http://localhost:1313/media/logo.svg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:site_name" content="SurplusLoop | Asset Liquidation Made Easy" />
+  <meta property="og:url" content="https://surplusloop.com/" />
+  <meta property="og:title" content="SurplusLoop | Asset Liquidation Made Easy" />
+  <meta property="og:description" content="Maximize Value with Our Surplus Marketplace and Auction Solutions" /><meta property="og:image" content="https://surplusloop.com/media/logo.svg" />
+    <meta property="twitter:image" content="https://surplusloop.com/media/logo.svg" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
@@ -200,7 +239,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite","url": "http://localhost:1313/"
+  "@type": "WebSite","url": "https://surplusloop.com/"
 }
 </script>
 
@@ -208,7 +247,7 @@
   
 
 
-  <title>SurplusLoop | Transforming Surplus Into Cashflow</title>
+  <title>SurplusLoop | Asset Liquidation Made Easy</title>
 
   
   
@@ -254,8 +293,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.e5fa931947cac2d947732ea37a770aae2b5bd4a50b6048060cd129b46159a06d.js"
+    integrity="sha256-5fqTGUfKwtlHcy6jencKritb1KULYEgGDNEptGFZoG0="
   ></script>
 
   
@@ -286,7 +325,7 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/" title="SurplusLoop | Transforming Surplus Into Cashflow">
+      <a class="navbar-brand" href="/" title="SurplusLoop | Asset Liquidation Made Easy">
         
       </a>
     </div>
@@ -354,6 +393,20 @@
           
           href="/contact"
         >Contact</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/marketplace"
+        >Marketplace</a
         >
       </li>
       
@@ -485,7 +538,7 @@
 
 
 <section id="section-hero" class="relative hbb-section blox-hero  dark" style="padding: 0 0 0 0;" >
- <div class="home-section-bg  bg-image parallax" style="background-color: green;background-image: url(&#39;http://localhost:1313/media/trees_hu1129e9a3caf6931dbb7fb0e7caccca85_259748_1920x1920_fit_q95_h2_lanczos.webp&#39;);filter: brightness(0.5);">
+ <div class="home-section-bg  bg-image parallax" style="background-color: green;background-image: url(&#39;https://surplusloop.com/media/trees_hu1129e9a3caf6931dbb7fb0e7caccca85_259748_1920x1920_fit_q95_h2_lanczos.webp&#39;);filter: brightness(0.5);">
    
  </div>
   
@@ -507,7 +560,7 @@
 
     <div class="text-center">
       <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">SurplusLoop</h1>
-      <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">Turning Surplus Into Cashflow</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">Asset Liquidation Made Easy</p>
 
       
 
@@ -635,21 +688,20 @@
   <div class="grid grid-cols-3 row-gap-8">
     
     <div class="text-center md:border-r">
-      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">20%</h6>
+      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">10+</h6>
       <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Surplus
-in organizations</p>
+Categories</p>
     </div>
     
     <div class="text-center md:border-r">
-      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">10%</h6>
-      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Spent on
-asset storage</p>
+      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">1000+</h6>
+      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Surplus
+Items</p>
     </div>
     
     <div class="text-center ">
-      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">15%</h6>
-      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Global waste
-from surplus assets</p>
+      <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">100+</h6>
+      <p class="text-sm font-medium tracking-widest lg:text-base text-gray-800 dark:text-gray-300">Sellers/Buyers</p>
     </div>
     
   </div>
@@ -770,27 +822,27 @@ from surplus assets</p>
   
   
   <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-    <img class="w-full" src="/media/about_hu1d09481a1a75a93b1d5b98f5eb8da683_25488_800x0_resize_q95_h2_lanczos.webp" alt="About SurplusLoop" style="order: 1">
+    <img class="w-full" src="/media/about_us_hubd0b5474d1f54b1e1c31ce43916d5b05_70795_800x0_resize_q95_h2_lanczos.webp" alt="About SurplusLoop" style="order: 1">
     <div class="mt-4 md:mt-0">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">About SurplusLoop</h2>
-      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Enabling circularity for surplus assets'</p>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400"></p>
       
       
       <ul>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
-          We’re passionate about creating a win-win for businesses and the planet
+          A B2B online marketplace for business surplus since April 2024
         </li>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
-          Our expertise and marketplace helps transform surplus assets into value-adds
+          SurplusLoop provides a simple, fast and secure way to sell surplus online
         </li>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
-          We operate as partners, to deliver what you need with better results
+          Surplus ranging from overstock to idle assets to scrap to disposal items
         </li>
         
       </ul>
@@ -804,27 +856,27 @@ from surplus assets</p>
   
   
   <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-    <img class="w-full" src="/media/benefit_hu62ecbb1980e84102619ca5804bced141_36246_800x0_resize_q95_h2_lanczos.webp" alt="We have you covered" >
+    <img class="w-full" src="/media/problem_huf20f3255e68d263cd7013265649af258_98343_800x0_resize_q95_h2_lanczos.webp" alt="Problems We Are Solving" >
     <div class="mt-4 md:mt-0">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We have you covered</h2>
-      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">We’re building a huge community of buyers and sellers</p>
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Problems We Are Solving</h2>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400"></p>
       
       
       <ul>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m4.5 12.75l6 6l9-13.5"/></svg>
-          For sellers, we help you liquidate and maximize your returns from surplus assets
+          The secondary market today is fragmented and inefficient for disposal or procurement.
         </li>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m4.5 12.75l6 6l9-13.5"/></svg>
-          For buyers, we give you access to assets in the secondary market at lower prices
+          Brokers make profits from “Buy Low Sell High” and result in a low return on surplus sold.
         </li>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m4.5 12.75l6 6l9-13.5"/></svg>
-          We’re a one stop solution for seamless asset liquidation
+          The surplus in landfill causes environmental degradation and resource waste.
         </li>
         
       </ul>
@@ -838,27 +890,66 @@ from surplus assets</p>
   
   
   <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-    <img class="w-full" src="/media/solution_hu33470c0a9e4b0e75f6585b779229e223_36546_800x0_resize_q95_h2_lanczos.webp" alt="Our Sales Solution" style="order: 1">
+    <img class="w-full" src="/media/our_solution_huebd69b768fae3fe392927b6707edec47_60729_800x0_resize_q95_h2_lanczos.webp" alt="Our Solution" style="order: 1">
     <div class="mt-4 md:mt-0">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Sales Solution</h2>
-      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flexible and seamless to get you the best price</p>
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Solution</h2>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400"></p>
       
       
       <ul>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
-          Our marketplace fuels your business by aggregating supply and demand
+          Our AI-powered marketplace connects sellers to a large network of buyers from different industries and regions to sell their surplus assets online and get the best return.
         </li>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
-          Our auction solutions allows the best market price to be achieved
+          Our database algorithm matches buyers and sellers for quick sale.
         </li>
         
         <li class="relative mb-4 pl-6">
           <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
-          Our direct sales solutions allows quick algorithmic matching between buyer and seller
+          Our auction model ensures you get the best price on the market.
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          Our escrow services give you more protection and buy with confidence.
+        </li>
+        
+      </ul>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <img class="w-full" src="/media/benefit_hu62ecbb1980e84102619ca5804bced141_36246_800x0_resize_q95_h2_lanczos.webp" alt="What Makes SurplusLoop Unique?" >
+    <div class="mt-4 md:mt-0">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">What Makes SurplusLoop Unique?</h2>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400"></p>
+      
+      
+      <ul>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          Our marketplace aggregates the largest surplus supply and demand into one place.
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          We are a one-stop shop for all surplus categories for disposal or procurement.
+        </li>
+        
+        <li class="relative mb-4 pl-6">
+          <svg class="inline-block pr-3" style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5z"/></svg>
+          Access surplus that is hard to find in the market.
         </li>
         
       </ul>
@@ -868,163 +959,6 @@ from surplus assets</p>
   </div>
   
 </div>
-
-
-  
-
-  
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-testimonials" class="relative hbb-section blox-testimonials  " style="padding: 0 0 0 0;" >
- <div class="home-section-bg " >
-   
- </div>
-  
-
-  
-
-    
-
-
-
-
-
-
-
-
-
-<section>
-  <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-
-    
-
-    
-    <div class="max-w-screen-md mx-auto mb-12">
-      <svg class="h-16 mx-auto mb-3 text-gray-400 dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32">
-        <path d="M9.563 8.469l-0.813-1.25c-5.625 3.781-8.75 8.375-8.75 12.156 0 3.656 2.688 5.375 4.969 5.375 2.875 0 4.906-2.438 4.906-5 0-2.156-1.375-4-3.219-4.688-0.531-0.188-1.031-0.344-1.031-1.25 0-1.156 0.844-2.875 3.938-5.344zM21.969 8.469l-0.813-1.25c-5.563 3.781-8.75 8.375-8.75 12.156 0 3.656 2.75 5.375 5.031 5.375 2.906 0 4.969-2.438 4.969-5 0-2.156-1.406-4-3.313-4.688-0.531-0.188-1-0.344-1-1.25 0-1.156 0.875-2.875 3.875-5.344z"/>
-      </svg>
-      <blockquote>
-        <p class="text-2xl font-medium text-gray-900 dark:text-white">"Awesome work SurplusLoop, they&rsquo;ve helped us gain 30% value across our asset liquidations"</p>
-      </blockquote>
-      <div class="flex items-center justify-center mt-6 space-x-3">
-        
-        
-        
-        <img class="w-12 h-12 rounded-full" src="/media/abdou_hu816eba2ac79edcb83d1ccc21df275f27_4913_75x75_fill_q95_h2_lanczos_center.webp" alt="Abdou">
-        
-        <div class="flex flex-col items-center">
-          <div class="pr-3 font-medium text-gray-900 dark:text-white">Abdou</div>
-          <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO of ScaleIT</div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="max-w-screen-md mx-auto ">
-      <svg class="h-16 mx-auto mb-3 text-gray-400 dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32">
-        <path d="M9.563 8.469l-0.813-1.25c-5.625 3.781-8.75 8.375-8.75 12.156 0 3.656 2.688 5.375 4.969 5.375 2.875 0 4.906-2.438 4.906-5 0-2.156-1.375-4-3.219-4.688-0.531-0.188-1.031-0.344-1.031-1.25 0-1.156 0.844-2.875 3.938-5.344zM21.969 8.469l-0.813-1.25c-5.563 3.781-8.75 8.375-8.75 12.156 0 3.656 2.75 5.375 5.031 5.375 2.906 0 4.969-2.438 4.969-5 0-2.156-1.406-4-3.313-4.688-0.531-0.188-1-0.344-1-1.25 0-1.156 0.875-2.875 3.875-5.344z"/>
-      </svg>
-      <blockquote>
-        <p class="text-2xl font-medium text-gray-900 dark:text-white">"SurplusLoop is a great marketplace. I found great prices for used office equipment!"</p>
-      </blockquote>
-      <div class="flex items-center justify-center mt-6 space-x-3">
-        
-        
-        
-        <img class="w-12 h-12 rounded-full" src="/media/michel_hud61ea174c2694e72ccab9d34fceb2744_1980_75x75_fill_q95_h2_lanczos_center.webp" alt="Michel Mustapha Ragio">
-        
-        <div class="flex flex-col items-center">
-          <div class="pr-3 font-medium text-gray-900 dark:text-white">Michel Mustapha Ragio</div>
-          <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CFO of Newell Road</div>
-        </div>
-      </div>
-    </div>
-    
-
-  </div>
-</section>
 
 
   
@@ -1091,7 +1025,7 @@ from surplus assets</p>
       
       
       
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      P
     
   </p>
 
