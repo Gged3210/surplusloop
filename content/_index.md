@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: SurplusLoop
-      text: Asset Liquidation Made Easy
+      text: Asia's Largest Surplus Network
       # primary_action:
       #   text: Get Started
       #   url: https://hugoblox.com/templates/

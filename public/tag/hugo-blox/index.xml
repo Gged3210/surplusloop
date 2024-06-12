@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Blox | SurplusLoop | Asset Liquidation Made Easy</title>
+    <title>Hugo Blox | SurplusLoop | Asia&#39;s Largest Surplus Network</title>
     <link>https://surplusloop.com/tag/hugo-blox/</link>
       <atom:link href="https://surplusloop.com/tag/hugo-blox/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo Blox</description>
@@ -85,7 +85,7 @@
 
 
 
-&lt;div id=&#34;chart-645291873&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-943128576&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -103,7 +103,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-645291873&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-943128576&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
