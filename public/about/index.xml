@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The team behind SurplusLoop | SurplusLoop | Asia&#39;s Largest Surplus Network</title>
+    <link>https://surplusloop.com/about/</link>
+      <atom:link href="https://surplusloop.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <description>The team behind SurplusLoop</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://surplusloop.com/about/featured.jpg</url>
+      <title>The team behind SurplusLoop</title>
+      <link>https://surplusloop.com/about/</link>
+    </image>
+    
+    <item>
+      <title>The team behind SurplusLoop</title>
+      <link>https://surplusloop.com/about/profile/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://surplusloop.com/about/profile/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

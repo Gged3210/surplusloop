@@ -16,6 +16,9 @@ main:
     url: /contact
     weight: 40
     hasChildren: false
+  - name: About Us
+    url: /about
+    weight: 40
   - name: Marketplace
     url: /marketplace
     weight: 40
